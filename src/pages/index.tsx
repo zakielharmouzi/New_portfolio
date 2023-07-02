@@ -43,7 +43,8 @@ export default function Home() {
           </AnchorLink>
         </div>
         <div className="lg:w-1/2 h-80 lg:h-auto lg:p-12 lg:pb-24">
-          <div className="bg-pfp h-full bg-cover bg-center border-[1px] border-white box-shadoww"></div>
+          <div className="bg-pfp h-full bg-cover bg-center border-[1px] border-white box-shadoww">
+          </div>
         </div>
       </div>
       <div className="lg:px-44 lg:py-24 p-10 pt-14 pb-14 bg-white" id="about">

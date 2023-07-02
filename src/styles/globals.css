@@ -26,33 +26,25 @@
 .box-shadoww {
   box-shadow: 5px 5px white;
 }
-
 .first-image {
-  background-image: linear-gradient(black, black),
-    url("../../public/assets/lib.jpg");
+  background-image: linear-gradient(green, green), url("/assets/lib.jpg");
+  background-size: cover;
   background-blend-mode: soft-light;
-
-  /* background-image: linear-gradient(green, green),
-    url("../../public/assets/lib.jpg"); */
-  /* background-image:
-  /* background-size: cover;
-  background-blend-mode: soft-light; */
 }
 .second-image {
-  background-image: linear-gradient(green, green),
-    url("../../public/assets/data.jpg");
+  background-image: linear-gradient(green, green), url("/assets/data.jpg");
   background-size: cover;
   background-blend-mode: soft-light;
 }
+
 .third-image {
-  background-image: linear-gradient(green, green),
-    url("../../public/assets/electric.jpg");
+  background-image: linear-gradient(green, green), url("/assets/electric.jpg");
   background-size: cover;
   background-blend-mode: soft-light;
 }
+
 .fourth-image {
-  background-image: linear-gradient(green, green),
-    url("../../public/assets/fuel.jpg");
+  background-image: linear-gradient(green, green), url("/assets/fuel.jpg");
   background-size: cover;
   background-blend-mode: soft-light;
 }

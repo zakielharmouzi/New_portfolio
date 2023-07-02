@@ -43,8 +43,7 @@ export default function Home() {
           </AnchorLink>
         </div>
         <div className="lg:w-1/2 h-80 lg:h-auto lg:p-12 lg:pb-24">
-          <div className="bg-pfp h-full bg-cover bg-center border-[1px] border-white box-shadoww">
-          </div>
+          <div className="bg-pfp h-full bg-cover bg-center border-[1px] border-white box-shadoww"></div>
         </div>
       </div>
       <div className="lg:px-44 lg:py-24 p-10 pt-14 pb-14 bg-white" id="about">
@@ -199,7 +198,7 @@ export default function Home() {
           </p>
         </div>
         <div className="flex flex-col lg:flex-row lg:h-80">
-          <Link className="lg:w-[25%] h-80  first-image bg-center bg-cover translate-all duration-200 hover:w-[33%] cursor-pointer p-10 flex flex-col" target="_blank" href="https://book-managment-n3lq.vercel.app/">
+          <Link className="lg:w-[25%] h-80 first-image bg-center bg-cover translate-all duration-200 hover:w-[33%] cursor-pointer p-10 flex flex-col" target="_blank" href="https://book-managment-n3lq.vercel.app/">
             <h1 className="text-white font-bold font-JetBrainsMono text-2xl mb-6">
               M6L website
             </h1>
@@ -207,7 +206,7 @@ export default function Home() {
               this is a website I made to tackle a problem with the AUI library website, the interface is very user-friendly and easy to use, I used React and supabase for this project.
             </p>
           </Link>
-          <Link className="lg:w-[25%] h-80  second-image bg-center bg-cover translate-all duration-200 hover:w-[33%] cursor-pointer p-10 flex flex-col" target="_blank" href="https://github.com/zakielharmouzi/Python_scraping--library">
+          <Link className="lg:w-[25%] h-80 second-image bg-center bg-cover translate-all duration-200 hover:w-[33%] cursor-pointer p-10 flex flex-col" target="_blank" href="https://github.com/zakielharmouzi/Python_scraping--library">
             <h1 className="text-white font-bold font-JetBrainsMono text-2xl mb-6">
               AUI Library scraper
             </h1>
@@ -215,7 +214,7 @@ export default function Home() {
               For this project, I worked on scraping the AUI library for all hard copies of the books and their availability, I used Python and Selenium for this project.
             </p>
           </Link>
-            <Link className="lg:w-[25%] h-80  third-image bg-center bg-cover translate-all duration-200 hover:w-[33%] cursor-pointer p-10 flex flex-col" target="_blank" href="https://www.mdpi.com/1996-1073/16/2/753">
+            <Link className="lg:w-[25%] h-80 third-image bg-center bg-cover translate-all duration-200 hover:w-[33%] cursor-pointer p-10 flex flex-col" target="_blank" href="https://www.mdpi.com/1996-1073/16/2/753">
             <h1 className="text-white font-bold font-JetBrainsMono text-2xl mb-6">
               Research Article 
             </h1>
@@ -223,7 +222,7 @@ export default function Home() {
               In this article the REMO team and I worked on figuring out the best way to implement the optimal charging station locations in Morocco, Using many softwares and tools such as GIS, Python, and many more.
             </p>
           </Link>
-          <div className="lg:w-[25%] h-80  fourth-image bg-center bg-cover translate-all duration-200 hover:w-[33%] cursor-pointer p-10 flex flex-col">
+          <div className="lg:w-[25%] h-80 fourth-image bg-center bg-cover translate-all duration-200 hover:w-[33%] cursor-pointer p-10 flex flex-col">
             <h1 className="text-white font-bold font-JetBrainsMono text-2xl mb-6">
               Case Study
             </h1>

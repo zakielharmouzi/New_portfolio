@@ -11,11 +11,11 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        pfp: "url('../../public/assets/pfp.jpg')",
-        lib: "url('../../public/assets/lib.jpg')",
-        data: "url('../../public/assets/data.jpg')",
-        electric: "url('../../public/assets/electric.jpg')",
-        fuel: "url('../../public/assets/fuel.jpg')",
+         pfp: "url('/assets/pfp.jpg')",
+  lib: "url('/assets/lib.jpg')",
+  data: "url('/assets/data.jpg')",
+  electric: "url('/assets/electric.jpg')",
+  fuel: "url('/assets/fuel.jpg')",
       },
       fontFamily: {
         JetBrainsMono: ["JetBrains Mono", "monospace"],

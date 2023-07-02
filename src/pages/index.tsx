@@ -232,37 +232,38 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="lg:px-44 lg:py-24 p-10 pt-14 pb-14" id="Contact">
-        <div className="flex flex-col lg:flex-row gap-10 lg:gap-20">
-          <div className="lg:w-1/2">
-            <h1 className="font-JetBrainsMono text-5xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-bold mb-8">
-              Contact me_
-            </h1>
-            <div className="flex flex-col gap-4 ">
-              <div className="flex flex-row items-center gap-4">
-                <p className="text-white font-semibold text-2xl">
-                  Email:
-                </p>
-                <p className="text-white font-semibold text-2xl ">
-                Z.elharmouzi@aui.ma
-                </p>
-                <p className="text-white font-semibold text-2xl ml-20">
-                Phone:
-                </p>
-                <p className="text-white font-semibold text-2xl">
-                +212643701368
-                </p>
-                 <p className="text-white font-semibold text-2xl ml-20">
-                Github:
-                </p>
-                <p className="text-white font-semibold text-2xl">
-                <Link href="https://github.com/zakielharmouzi">Zakielharmouzi</Link>
-                </p>
-              </div>
-            </div>
-          </div>
+     <div className="lg:px-44 lg:py-24 p-10 pt-14 pb-14" id="Contact">
+  <div className="flex flex-col lg:flex-row gap-10 lg:gap-20">
+    <div className="lg:w-1/2">
+      <h1 className="flex flex-col lg:flex-row font-JetBrainsMono text-5xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-bold mb-8">
+        Contact me_
+      </h1>
+      <div className="flex flex-col gap-4">
+        <div className="flex flex-col lg:flex-row items-center gap-4">
+          <p className="text-white font-semibold text-2xl">
+            Email:
+          </p>
+          <p className="text-white font-semibold text-2xl">
+            Z.elharmouzi@aui.ma
+          </p>
+          <p className="text-white font-semibold text-2xl lg:ml-20">
+            Phone:
+          </p>
+          <p className="text-white font-semibold text-2xl">
+            +212643701368
+          </p>
+          <p className="text-white font-semibold text-2xl lg:ml-20">
+            Github:
+          </p>
+          <p className="text-white font-semibold text-2xl">
+            <Link href="https://github.com/zakielharmouzi">Zakielharmouzi</Link>
+          </p>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
     </div>
   );
 }

@@ -5,6 +5,8 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import Pfp from "../../public/assets/pfpp.png";
 import SchoolIcon from "../../public/assets/icon-school.svg";
 import Python from "../../public/assets/icons8-python.svg";
+import Email from "../../public/assets/icons8-email.svg";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -21,10 +23,7 @@ export default function Home() {
             Engineer
           </h1>
           <p className="text-justify mb-10 text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Bringing Ideas to Life through Technology.
           </p>
           <AnchorLink href="#about">
             <h1 className="px-6 py-2 text-black font-JetBrainsMono font-bold text-xl bg-white rounded-md w-full flex items-center justify-center lg:w-fit brightness-100 hover:brightness-75 transition-all duration-150 mb-10 lg:mb-0">
@@ -41,15 +40,11 @@ export default function Home() {
           <h1 className="font-JetBrainsMono text-5xl font-bold mb-10 ">
             About_
           </h1>
+          <p className="text-lg text-justify ">
+            I am currently a Junior at Al Akhawayn University in Ifrane, Morocco, where I am enthusiastically pursuing a degree in Computer Science with a minor in Business Administration. My passion lies in the realm of full-stack development and software engineering.
+          </p>
           <p className="text-lg text-justify mb-16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
+            Presently, I am actively engaged as a researcher for the REMO group at AUI, where I contribute to diverse research projects focusing on software development and emerging technologies.
           </p>
           <div className="flex flex-col lg:flex-row gap-20 w-full">
             <div className="lg:w-1/3 flex flex-col items-center justify-center">
@@ -59,7 +54,7 @@ export default function Home() {
                 alt="school icon"
               />
               <h1 className="text-black font-semibold text-2xl">
-                Junior at AUI
+                developer
               </h1>
             </div>
             <div className="lg:w-1/3 flex flex-col items-center justify-center">
@@ -69,7 +64,7 @@ export default function Home() {
                 alt="school icon"
               />
               <h1 className="text-black font-semibold text-2xl">
-                Junior at AUI
+                Research assistant
               </h1>
             </div>
             <div className="lg:w-1/3 flex flex-col items-center justify-center">
@@ -91,39 +86,48 @@ export default function Home() {
             <h1 className="font-JetBrainsMono text-5xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-bold mb-8">
               Skills & Experience_
             </h1>
-            <p className="text-white mb-10">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
+            <h2 className="text-white mb-10">
+              I have a wide range of skills and experience in software And Web Dev.
+            </h2>
             <h1 className="font-JetBrainsMono text-3xl text-white font-bold mb-14 lg:mb-8">
               Skills
             </h1>
-            <div className="grid grid-cols-1 gap-10 lg:grid-cols-3 w-full">
-              <div className="flex flex-row items-center lg:justify-center mb-5">
+            <div className="grid grid-cols-1 gap-10 lg:grid-cols-3 w-full justify-center ">
+              <div className="flex flex-row items-center mb-5">
                 <Image className="w-12 mr-4" src={Python} alt="school icon" />
-                <h1 className="text-white font-semibold text-2xl">Python</h1>
+                <h1 className="text-white font-semibold text-1.5xl">Javascript</h1>
               </div>
-              <div className="flex flex-row items-center lg:justify-center mb-5">
+              <div className="flex flex-row items-center mb-5">
                 <Image className="w-12 mr-4" src={Python} alt="school icon" />
-                <h1 className="text-white font-semibold text-2xl">Python</h1>
+                <h1 className="text-white font-semibold text-1.5xl">Front-End dev</h1>
               </div>
-              <div className="flex flex-row items-center lg:justify-center mb-5">
+              <div className="flex flex-row items-center mb-5">
                 <Image className="w-12 mr-4" src={Python} alt="school icon" />
-                <h1 className="text-white font-semibold text-2xl">Python</h1>
+                <h1 className="text-white font-semibold text-1.5xl">Back-End dev</h1>
               </div>
-              <div className="flex flex-row items-center lg:justify-center mb-5">
+              <div className="flex flex-row items-center mb-5">
                 <Image className="w-12 mr-4" src={Python} alt="school icon" />
-                <h1 className="text-white font-semibold text-2xl">Python</h1>
+                <h1 className="text-white font-semibold text-1.5xl">SQL</h1>
               </div>
-              <div className="flex flex-row items-center lg:justify-center mb-5">
+              <div className="flex flex-row items-center mb-5">
                 <Image className="w-12 mr-4" src={Python} alt="school icon" />
-                <h1 className="text-white font-semibold text-2xl">Python</h1>
+                <h1 className="text-white font-semibold text-1.5xl">Java</h1>
               </div>
-              <div className="flex flex-row items-center lg:justify-center mb-5">
+              <div className="flex flex-row items-center mb-5">
                 <Image className="w-12 mr-4" src={Python} alt="school icon" />
-                <h1 className="text-white font-semibold text-2xl">Python</h1>
+                <h1 className="text-white font-semibold text-1.5xl">Python</h1>
+              </div>
+              <div className="flex flex-row items-center mb-5">
+                <Image className="w-12 mr-4" src={Python} alt="school icon" />
+                <h1 className="text-white font-semibold text-1.5xl">C</h1>
+              </div>
+              <div className="flex flex-row items-center mb-5">
+                <Image className="w-12 mr-4" src={Python} alt="school icon" />
+                <h1 className="text-white font-semibold text-1.5xl">Python</h1>
+              </div>
+              <div className="flex flex-row items-center mb-5">
+                <Image className="w-12 mr-4" src={Python} alt="school icon" />
+                <h1 className="text-white font-semibold text-1.5xl">Python</h1>
               </div>
             </div>
           </div>
@@ -134,40 +138,38 @@ export default function Home() {
             <div className="flex flex-col">
               <div className="border-t-2 flex flex-row border-white pt-4 mb-12">
                 <div className="w-1/3">
-                  <h1>2020 - Present</h1>
+                  <h1>2021 - present</h1>
                 </div>
                 <div className="w-2/3 flex flex-col">
-                  <h1 className="mb-6">Product Designer</h1>
+                  <h1 className="mb-6">Research Experience</h1>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor
+                    In this time I tackled many projects with the supervision of Dr Khallaayoun and the REMO team, We were mainly focused as the name suggests (Renewable Energy-based E-Mobility) in Morocco.
                   </p>
                 </div>
-              </div>
-              <div className="border-t-2 flex flex-row border-white pt-4 mb-12">
+              </div> 
+              <div className="border-t-2 flex flex-row border-white pt-4 mb-12 ">
                 <div className="w-1/3">
-                  <h1>2020 - Present</h1>
+                  <h1>2022 - present</h1>
                 </div>
                 <div className="w-2/3 flex flex-col">
-                  <h1 className="mb-6">Product Designer</h1>
+                  <h1 className="mb-6">Freelancing</h1>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor
+                    During this timeframe, I actively engaged in freelancing work, undertaking various projects primarily for family members and fellow students.
                   </p>
                 </div>
               </div>
               <div className="border-t-2 flex flex-row border-white pt-4 ">
                 <div className="w-1/3">
-                  <h1>2020 - Present</h1>
+                  <h1>2022 - 2022</h1>
                 </div>
                 <div className="w-2/3 flex flex-col">
-                  <h1 className="mb-6">Product Designer</h1>
+                  <h1 className="mb-6">AXA Software internship</h1>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor
+                    During this period, I had the opportunity to intern at AXA Morocco, where I gained valuable experience in software maintenance.
                   </p>
                 </div>
               </div>
+             
             </div>
           </div>
         </div>
@@ -177,61 +179,67 @@ export default function Home() {
           <h1 className="font-JetBrainsMono text-5xl font-bold mb-10 ">
             Projects_
           </h1>
-          <p className="text-lg mb-8 text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
+          <p className="text-lg text-justify">
+          I have worked on a variety of projects, including personal projects and research projects for the REMO group. These experiences have helped me develop strong teamwork skills and the ability to adapt to different projects and challenges.
+          </p>
+           <p className="text-lg mb-8 text-justify">
+          Most of the projects are clickable and will redirect you to the project's website or github repository.
           </p>
         </div>
         <div className="flex flex-col lg:flex-row lg:h-80">
-          <div className="lg:w-[25%] h-80  first-image bg-center bg-cover translate-all duration-200 hover:w-[33%] cursor-pointer p-10 flex flex-col">
+          <Link className="lg:w-[25%] h-80  first-image bg-center bg-cover translate-all duration-200 hover:w-[33%] cursor-pointer p-10 flex flex-col" target="_blank" href="https://book-managment-n3lq.vercel.app/">
             <h1 className="text-white font-bold font-JetBrainsMono text-2xl mb-6">
               M6L website
             </h1>
-            <p className="text-justify font-semibold text-white ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            <p className="text-justify font-semibold bg-black/60 text-white ">
+              this is a website I made to tackle a problem with the AUI library website, the interface is very user-friendly and easy to use, I used React and supabase for this project.
             </p>
-          </div>
-          <div className="lg:w-[25%] h-80  second-image bg-center bg-cover translate-all duration-200 hover:w-[33%] cursor-pointer p-10 flex flex-col">
+          </Link>
+          <Link className="lg:w-[25%] h-80  second-image bg-center bg-cover translate-all duration-200 hover:w-[33%] cursor-pointer p-10 flex flex-col" target="_blank" href="https://github.com/zakielharmouzi/Python_scraping--library">
             <h1 className="text-white font-bold font-JetBrainsMono text-2xl mb-6">
-              M6L website
+              AUI Library scraper
             </h1>
-            <p className="text-justify font-semibold text-white ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            <p className="text-justify font-semibold bg-black/60 text-white ">
+              For this project, I worked on scraping the AUI library for all hard copies of the books and their availability, I used Python and Selenium for this project.
             </p>
-          </div>
-          <div className="lg:w-[25%] h-80  third-image bg-center bg-cover translate-all duration-200 hover:w-[33%] cursor-pointer p-10 flex flex-col">
+          </Link>
+            <Link className="lg:w-[25%] h-80  third-image bg-center bg-cover translate-all duration-200 hover:w-[33%] cursor-pointer p-10 flex flex-col" target="_blank" href="https://www.mdpi.com/1996-1073/16/2/753">
             <h1 className="text-white font-bold font-JetBrainsMono text-2xl mb-6">
-              M6L website
+              Research Article 
             </h1>
-            <p className="text-justify font-semibold text-white ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            <p className="text-justify font-semibold bg-black/60 text-white ">
+              In this article the REMO team and I worked on figuring out the best way to implement the optimal charging station locations in Morocco, Using many softwares and tools such as GIS, Python, and many more.
             </p>
-          </div>
+          </Link>
           <div className="lg:w-[25%] h-80  fourth-image bg-center bg-cover translate-all duration-200 hover:w-[33%] cursor-pointer p-10 flex flex-col">
             <h1 className="text-white font-bold font-JetBrainsMono text-2xl mb-6">
-              M6L website
+              Case Study
             </h1>
-            <p className="text-justify font-semibold text-white ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            <p className="text-justify font-semibold bg-black/60 text-white ">
+              For this case study we used mathematical models to figure out the weight of each social factor to determine if the studied country is able to adapt FCVS(Fuel Cell Vehicles) or not. (Under review)
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="lg:px-44 lg:py-24 p-10 pt-14 pb-14" id="Contact">
+        <div className="flex flex-col lg:flex-row gap-10 lg:gap-20">
+          <div className="lg:w-1/2">
+            <h1 className="font-JetBrainsMono text-5xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-bold mb-8">
+              Contact me_
+            </h1>
+            <div className="flex flex-col gap-4">
+              <div className="flex flex-row items-center gap-4">
+                <p className="text-white font-semibold text-2xl">
+    
+                </p>
+                <p className="text-white font-semibold text-2xl">
+                Z.elharmouzi@aui.ma
+                </p>
+                <p className="text-white font-semibold text-2xl">
+                067222222
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

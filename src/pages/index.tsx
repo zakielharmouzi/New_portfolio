@@ -7,6 +7,15 @@ import SchoolIcon from "../../public/assets/icon-school.svg";
 import Python from "../../public/assets/icons8-python.svg";
 import Email from "../../public/assets/icons8-email.svg";
 import Link from "next/link";
+import Java from "../../public/assets/icons8-java.svg";
+import React from "../../public/assets/icons8-react.svg";
+import Javascript from "../../public/assets/icons8-javascript.svg";
+import C_lang from "../../public/assets/icons8-c-programming.svg";
+import SQL from "../../public/assets/icons8-sql.svg";
+import Tailwind from "../../public/assets/icons8-tailwind-css.svg";
+import Git from "../../public/assets/icons8-git.svg";
+import Fullstack from "../../public/assets/icons8-fullstack-developer.svg";
+
 
 export default function Home() {
   return (
@@ -94,23 +103,23 @@ export default function Home() {
             </h1>
             <div className="grid grid-cols-1 gap-10 lg:grid-cols-3 w-full justify-center ">
               <div className="flex flex-row items-center mb-5">
-                <Image className="w-12 mr-4" src={Python} alt="school icon" />
+                <Image className="w-12 mr-4" src={Javascript} alt="school icon" />
                 <h1 className="text-white font-semibold text-1.5xl">Javascript</h1>
               </div>
               <div className="flex flex-row items-center mb-5">
-                <Image className="w-12 mr-4" src={Python} alt="school icon" />
-                <h1 className="text-white font-semibold text-1.5xl">Front-End dev</h1>
+                <Image className="w-12 mr-4" src={Fullstack} alt="school icon" />
+                <h1 className="text-white font-semibold text-1.5xl">Full stack</h1>
               </div>
               <div className="flex flex-row items-center mb-5">
-                <Image className="w-12 mr-4" src={Python} alt="school icon" />
-                <h1 className="text-white font-semibold text-1.5xl">Back-End dev</h1>
+                <Image className="w-12 mr-4" src={Git} alt="school icon" />
+                <h1 className="text-white font-semibold text-1.5xl">Git</h1>
               </div>
               <div className="flex flex-row items-center mb-5">
-                <Image className="w-12 mr-4" src={Python} alt="school icon" />
+                <Image className="w-12 mr-4" src={SQL} alt="school icon" />
                 <h1 className="text-white font-semibold text-1.5xl">SQL</h1>
               </div>
               <div className="flex flex-row items-center mb-5">
-                <Image className="w-12 mr-4" src={Python} alt="school icon" />
+                <Image className="w-12 mr-4" src={Java} alt="school icon" />
                 <h1 className="text-white font-semibold text-1.5xl">Java</h1>
               </div>
               <div className="flex flex-row items-center mb-5">
@@ -118,16 +127,16 @@ export default function Home() {
                 <h1 className="text-white font-semibold text-1.5xl">Python</h1>
               </div>
               <div className="flex flex-row items-center mb-5">
-                <Image className="w-12 mr-4" src={Python} alt="school icon" />
+                <Image className="w-12 mr-4" src={C_lang} alt="school icon" />
                 <h1 className="text-white font-semibold text-1.5xl">C</h1>
               </div>
               <div className="flex flex-row items-center mb-5">
-                <Image className="w-12 mr-4" src={Python} alt="school icon" />
-                <h1 className="text-white font-semibold text-1.5xl">Python</h1>
+                <Image className="w-12 mr-4" src={React} alt="school icon" />
+                <h1 className="text-white font-semibold text-1.5xl">React</h1>
               </div>
               <div className="flex flex-row items-center mb-5">
-                <Image className="w-12 mr-4" src={Python} alt="school icon" />
-                <h1 className="text-white font-semibold text-1.5xl">Python</h1>
+                <Image className="w-12 mr-4" src={Tailwind} alt="school icon" />
+                <h1 className="text-white font-semibold text-1.5xl">Tailwind</h1>
               </div>
             </div>
           </div>

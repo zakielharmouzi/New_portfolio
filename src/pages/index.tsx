@@ -15,6 +15,8 @@ import SQL from "../../public/assets/icons8-sql.svg";
 import Tailwind from "../../public/assets/icons8-tailwind-css.svg";
 import Git from "../../public/assets/icons8-git.svg";
 import Fullstack from "../../public/assets/icons8-fullstack-developer.svg";
+import Developer from "../../public/assets/icons8-developer-64.png";
+import Researcher from "../../public/assets/icons8-research.svg";
 
 
 export default function Home() {
@@ -59,7 +61,7 @@ export default function Home() {
             <div className="lg:w-1/3 flex flex-col items-center justify-center">
               <Image
                 className="w-12 rounded-[20%] p-2 border-black border-2 mb-4"
-                src={SchoolIcon}
+                src={Developer}
                 alt="school icon"
               />
               <h1 className="text-black font-semibold text-2xl">
@@ -69,7 +71,7 @@ export default function Home() {
             <div className="lg:w-1/3 flex flex-col items-center justify-center">
               <Image
                 className="w-12 rounded-[20%] p-2 border-black border-2 mb-4"
-                src={SchoolIcon}
+                src={Researcher}
                 alt="school icon"
               />
               <h1 className="text-black font-semibold text-2xl">
@@ -236,16 +238,25 @@ export default function Home() {
             <h1 className="font-JetBrainsMono text-5xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-bold mb-8">
               Contact me_
             </h1>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 ">
               <div className="flex flex-row items-center gap-4">
                 <p className="text-white font-semibold text-2xl">
-    
+                  Email:
                 </p>
-                <p className="text-white font-semibold text-2xl">
+                <p className="text-white font-semibold text-2xl ">
                 Z.elharmouzi@aui.ma
                 </p>
+                <p className="text-white font-semibold text-2xl ml-20">
+                Phone:
+                </p>
                 <p className="text-white font-semibold text-2xl">
-                067222222
+                +212643701368
+                </p>
+                 <p className="text-white font-semibold text-2xl ml-20">
+                Github:
+                </p>
+                <p className="text-white font-semibold text-2xl">
+                <Link href="https://github.com/zakielharmouzi">Zakielharmouzi</Link>
                 </p>
               </div>
             </div>
